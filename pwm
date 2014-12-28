@@ -1,0 +1,8 @@
+import Adafruit_BBIO.PWM as PWM
+import time
+
+PWM.start(P9_14", 50)
+
+time.sleep(5)
+PWM.start("P9_14", 50, 1000, 1)
+time.sleep(5)
